@@ -1,0 +1,27 @@
+@import "@styles/settings/_settings";
+
+
+.search {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;    
+}
+
+.searchIcon {
+    color: rgba(72, 70, 70, 0.5);
+    .dark & {
+        color: rgba(255,255,255,0.9);
+    }
+
+    
+}
+
+
+
+
+
+
+

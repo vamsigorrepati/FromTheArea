@@ -1,0 +1,27 @@
+.ratingModule{
+    margin-left: 4px;
+}
+
+.nameRating {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.6vh;
+}
+
+.reviewBody {
+    margin-bottom: 20px;
+}
+
+.divider {
+    background-color: black;
+}

@@ -1,0 +1,55 @@
+
+.friendsheader {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    justify-items: start;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.arrow {
+    color: black;
+}
+
+.header {
+    justify-self: center;
+}
+
+.search {
+    display: grid;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.divider {
+    background-color: black;
+}
+
+.friendsarea {
+    margin-right: 20px;
+    margin-left: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friendsbutton {
+    width: 85%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.friend {
+    display: grid;
+
+}
+
+
+.unfriend {
+    background-color: transparent;
+    border-color: rgb(33, 33, 34, 0.5);
+}

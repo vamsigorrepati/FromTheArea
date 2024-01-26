@@ -1,0 +1,61 @@
+@import "@styles/settings/_settings";
+
+.header {
+  width: 100%;
+  color: white;
+  background-color: white;
+  border-bottom: 1px solid black; 
+  padding: 1em 0;
+  margin: 0;
+  position: relative;  
+  z-index: 10;         
+}
+
+.headerMap {
+  width: 100%;
+  color: none;
+  background-color: none;
+  border-bottom: 1px solid none; 
+  padding: 1em 0;
+  position: relative;  
+  pointer-events: none;
+  z-index: 10;        
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 200px; 
+}
+
+.toggle {
+  display: flex;
+  gap: 10px;
+  align-items: center; 
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  pointer-events: auto;
+}
+
+.togglelist {
+  display: flex;
+  align-items: center;
+}
+
+.iconlist {
+  margin-right: 6px;
+}

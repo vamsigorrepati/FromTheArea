@@ -1,0 +1,17 @@
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.main {
+  padding: 0 0 3em;
+}
+
+.profile {
+  position: fixed;
+  bottom: 9px;
+  right: 16px;
+  z-index: 10;
+}

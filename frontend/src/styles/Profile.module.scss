@@ -1,0 +1,91 @@
+.profileheader {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    justify-items: start;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.arrow {
+    color: black;
+}
+
+.header {
+    justify-self: center;
+}
+  
+.avatarsection {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+  
+.username {
+    display: flex;
+    justify-content: center;
+}
+  
+.usercontact {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+  
+.editprofile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(18,35,121);
+    height: 30px;
+}
+  
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.favorites {
+    background-color: transparent;
+    width: 100%;
+    justify-content: left;
+}
+  
+.friends {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    justify-content: left;
+  
+}
+
+.chevron {
+    color: black;
+}
+  
+.divider {
+    background-color: black;
+}
+  
+.logout {
+    position: fixed;
+    left: 5px;
+    bottom: 70px;
+}
+  
+.logoutbutton {
+    background-color: transparent;
+    color: red;
+}
+
+  

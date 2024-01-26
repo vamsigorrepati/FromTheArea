@@ -1,0 +1,47 @@
+.listheader {
+  display: grid;
+  gap: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+
+.profile {
+  position: fixed;
+  bottom: 9px;
+  right: 16px;
+  z-index: 20;
+}
+
+.mapButtonsContainer {
+  position: absolute;
+  right: 20px; 
+  top: 100px; 
+  width: 100px; 
+}
+
+.mapheader {
+  display: flex; 
+  justify-content: flex-end; 
+  gap: 20px; 
+  margin-right: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.listBody{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.popupContent{
+  margin: -10px;
+}
+
+.custompopup .leaflet-popup-content {
+  margin: 0px !important;
+  background-color: red !important;
+}

@@ -1,0 +1,36 @@
+.reviewCard {
+    margin: 10px;
+    margin-right: 0px;
+    display: flex;
+    width: 10rem;
+    margin-bottom: 0;
+    max-width: 650px;
+}
+
+.cardHeader {
+    margin-top: 10px;
+    padding-bottom: 0 !important;
+    margin-bottom: -10px;
+    height: 85px;
+}
+
+.review{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 1.6vh;
+    margin-bottom: 10px;
+}
+
+.cardFooter {
+    padding-top: 4px!important;
+    padding: 5px;
+}
+
+.ratingModule{
+    margin-left: 4px;
+}

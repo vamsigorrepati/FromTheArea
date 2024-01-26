@@ -1,0 +1,7 @@
+node_modules/
+backend/Pipfile*
+backend/__pycache__
+venv/
+./.vscode/
+backend/env/
+backend/secret.py

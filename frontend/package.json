@@ -1,0 +1,75 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "test": "node ./node_modules/jest/bin/jest.js --env=jsdom --ci",
+    "test:coverage": "node ./node_modules/jest/bin/jest.js --env=jsdom --ci --coverage",
+    "test:update": "jest --updateSnapshot"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.15",
+    "@nextui-org/react": "^2.1.13",
+    "@popperjs/core": "^2.11.8",
+    "@testing-library/user-event": "^14.5.1",
+    "axios": "^1.6.1",
+    "bootstrap": "^5.3.2",
+    "font-awesome": "^4.7.0",
+    "framer-motion": "^10.16.4",
+    "jest-environment-jsdom": "^29.7.0",
+    "jquery": "^3.7.1",
+    "leaflet": "^1.9.4",
+    "next": "latest",
+    "next-auth": "^4.24.3",
+    "nvm": "^0.0.4",
+    "passport": "^0.6.0",
+    "passport-cas": "^0.1.1",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.1",
+    "sass": "^1.66.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.0",
+    "autoprefixer": "^10.4.16",
+    "babel-jest": "^29.7.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-transform-stub": "^2.0.0",
+    "postcss": "^8.4.31",
+    "react-test-renderer": "^18.2.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "jest": {
+    "automock": false,
+    "moduleNameMapper": {
+      "\\.(scss|css)$": "identity-obj-proxy",
+      "\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/node_modules/jest-transform-stub",
+      "^@components/(.*)$": "<rootDir>/src/components/$1"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupJest.js"
+    ],
+    "testEnvironment": "jsdom",
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
